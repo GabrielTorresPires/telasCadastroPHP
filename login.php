@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sistema/styles.css">
+    <link rel="stylesheet" href="Login colaborador/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <title>Tela de Login</title>
 </head>
@@ -14,7 +14,7 @@
     <div class="cxdireita"></div>
     <div class="cxesquerda"></div>
     
-    <a href="login.php"><h1 class="logo" for="logo"> TORRES </h1>
+    <a href="/login.php"><h1 class="logo" for="logo"> TORRES </h1>
     <h2 class="sombraLogo"> TORRES</h2></a>
     <h3 class="subtitulo"> SOLUÇÕES EM INFORMÁTICA </h3>
     
@@ -32,16 +32,16 @@
     <form action="logon.php" method="post">
 
         <label class="lLogin" for="Login">Username</label>
-        <img class="usuario" src="sistema/imagens/usuário.png" alt="imagem usuário">
-        <input class="cxlogin" type="text" name="Login" id="Login">
+        <img class="usuario" src="Login colaborador/imagens/usuário.png" alt="imagem usuário">
+        <input class="cxlogin" type="text" name="login" id="login">
         <label class="lsenha" for="senha">Password</label>
-        <img class="chave" src="sistema/imagens/chave.png" alt="imagem de chave">
+        <img class="chave" src="Login colaborador/imagens/chave.png" alt="imagem de chave">
         <input class="cxsenha" type="password" name="senha" id="senha">
         <input class="cxentrar" type="submit" value="Entrar">
         <label class="remember-me" for="remember-me"> remember-me </label>
         <label class="esqueceu" for="esqueceu"> Esqueceu a senha? </label>
         <label class="nTemConta" for="nTemConta"> Não tem uma conta?</label>
-        <a href="sistema/login_cadastrar.php"><input class="cadastrar" type="button" value="Inscreva-se"></a>
+        <a href="Login colaborador/cadastro.php"><input class="cadastrar" type="button" value="Inscreva-se"></a>
         <label class="logarCom" for="logarCom"> Logar:</label>
 
 
@@ -49,9 +49,9 @@
     
     <div class="check"></div>
 
-    <a href="https://facebook.com.br"><img  class="face" src="sistema/imagens/face.png" alt="ícone Facebook"></a>
-    <a href="https://gmail.com.br"><img class="gmail" src="sistema/imagens/gmail.png" alt="ícone Gmail"></a>
-    <a href="https://icloud.com/"><img class="apple" src="sistema/imagens/apple.png" alt="ícone Apple"></a>
+    <a href="https://facebook.com.br"><img  class="face" src="Login colaborador/imagens/face.png" alt="ícone Facebook"></a>
+    <a href="https://gmail.com.br"><img class="gmail" src="Login colaborador/imagens/gmail.png" alt="ícone Gmail"></a>
+    <a href="https://icloud.com/"><img class="apple" src="Login colaborador/imagens/apple.png" alt="ícone Apple"></a>
 
 </body>
 </html>

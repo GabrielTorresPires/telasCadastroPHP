@@ -23,11 +23,12 @@ $array = mysqli_fetch_array($seach);
 
 /*Script para conferir os dados e iniciar e sessão */
 
-$senhabanco = $array['login'];
+$loginbanco = $array['login'];
+$senhabanco = $array['senha']; 
 
-if ($senhabanco == $login) {
-    header('Location: /sistema/cadastro_cliente.php');
+if ($loginbanco == $login && $senhabanco == $senha) {
+    header('Location: /cadastro_cliente.php');
 }else{
-    header('Location: login.php?msg=1');
+    header('Location: /login.php?msg=1');
     mysql_close();
 }

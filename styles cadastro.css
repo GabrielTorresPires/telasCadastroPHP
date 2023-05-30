@@ -1,0 +1,333 @@
+ @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100;200;300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+.cxtopo {
+
+    position: absolute;
+    width: 1106px;
+    height: 334px;
+    left: 184px;
+    top: 109px;
+
+    background: #ECF9FF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.cxinferior {
+
+    position: absolute;
+    width: 1106px;
+    height: 402px;
+    left: 184px;
+    top: 444px;
+    
+    background: rgba(83, 127, 231, 0.8);
+
+}
+
+
+.logo {
+    position: absolute;
+    width: 377px;
+    height: 174px;
+    left: 537px;
+    top: 65px;
+    
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 125px;
+    line-height: 188px;
+    text-align: center;
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+  
+    
+}
+
+.sombraLogo {
+
+    position: absolute;
+    width: 377px;
+    height: 174px;
+    left: 531px;
+    top: 40px;
+    
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 193px;
+    text-align: center;
+    color: #537FE7;
+
+}
+
+.setaEsquerda {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 89px;
+    height: 0px;
+    left: 475px;
+    top: 250px;
+    
+    border: 3px solid #537FE7;
+    transform: rotate(-180deg);
+}
+
+.setaDireita {
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 89px;
+    height: 0px;
+    left: 890px;
+    top: 250px;
+    border: 3px solid #000000;
+    transform: rotate(-180deg);
+
+
+}
+
+
+
+.subtitulo {
+
+    position: absolute;
+    width: 500px;
+    height: 31px;
+    left: 475px;
+    top: 300px;
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+
+}
+
+.tcadastro {
+
+    position: absolute;
+    width: 203px;
+    height: 82px;
+    left: 618px;
+    top: 410px;
+    
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    
+    color: #F6F1F1;
+    
+}
+
+
+.lnome {
+    position: absolute;
+    width: 153px;
+    height: 27px;
+    left: 246px;
+    top: 534px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.cxnome {
+
+    position: absolute;
+    width: 346px;
+    height: 39px;
+    left: 246px;
+    top: 578px;
+    background: #FFFFFF;
+    border-radius: 19px;
+}
+
+.llogin {
+
+    position: absolute;
+    width: 51px;
+    height: 27px;
+    left: 247px;
+    top: 641px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.cxlogin {
+
+    position: absolute;
+    width: 346px;
+    height: 39px;
+    left: 246px;
+    top: 690px;
+
+    background: #FFFFFF;
+    border-radius: 19px;
+}
+
+
+.cxcadastrar {
+
+    position: absolute;
+    width: 259px;
+    height: 82px;
+    left: 590px;
+    top: 763px;
+    
+    background: #252A35;
+    border-radius: 9px;
+    
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 618px;
+    top: 780px;
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.cadastrar {
+    /*position: absolute;
+    width: 259px;
+    height: 49px;
+    left: 590px;
+    top: 763px;
+    
+    background: #252A35;
+    border-radius: 9px;
+
+    position: absolute;
+    width: 203px;
+    height: 82px;
+    left: 618px;
+    top: 771px;
+    
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;*/
+
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 590px;
+    top: 600px;
+    background: #252A35;
+    border-radius: 9px;
+    
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 590px;
+    top: 780px;
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.lsenha {
+    position: absolute;
+    width: 58px;
+    height: 27px;
+    left: 831px;
+    top: 534px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+
+.cxsenha {
+    position: absolute;
+    width: 346px;
+    height: 39px;
+    left: 831px;
+    top: 578px;
+
+    background: #FFFFFF;
+    border-radius: 19px;
+
+}
+
+.lemail {
+    position: absolute;
+    width: 58px;
+    height: 27px;
+    left: 831px;
+    top: 641px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.cxemail {
+
+    position: absolute;
+    width: 346px;
+    height: 39px;
+    left: 831px;
+    top: 690px;
+
+    background: #FFFFFF;
+    border-radius: 19px;
+
+}
